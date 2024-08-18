@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+
+body {
+
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #576574;
+    min-height: 100vh;
+
+}
+
+.digital-clock{
+    display: flex;
+    font-size: 50px;
+    background: linear-gradient(to top left, #009900 0%, #ff99cc 100%);
+    padding: 20px;
+    border-radius: 10px;
+
+    div{
+        margin: 0 5px;
+        
+    }
+
+
+}
